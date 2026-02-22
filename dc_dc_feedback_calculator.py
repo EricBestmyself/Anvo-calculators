@@ -222,37 +222,37 @@ def main():
             background-color: #0b1020;
             color: #e0e6ff;
         }
-        /* 侧边栏：深色底 + 左侧高亮条，整体提高文字对比度 */
+        /* 侧边栏：护眼浅色背景，仅改侧边栏，主区不变 */
         section[data-testid="stSidebar"] {
-            background: linear-gradient(180deg, #0a0e1a 0%, #060a12 100%);
-            border-left: 3px solid #00d4ff;
-            box-shadow: inset 0 0 40px rgba(0, 212, 255, 0.06);
+            background: linear-gradient(180deg, #f0f4f8 0%, #e8eef4 100%);
+            border-left: 3px solid #94a3b8;
+            box-shadow: none;
         }
         section[data-testid="stSidebar"] > div {
-            color: #e8f4fc;
+            color: #334155;
         }
         section[data-testid="stSidebar"] h1,
         section[data-testid="stSidebar"] h2,
         section[data-testid="stSidebar"] h3 {
-            color: #00d4ff !important;
+            color: #1e293b !important;
             font-weight: 600;
             letter-spacing: 0.02em;
         }
         section[data-testid="stSidebar"] label {
-            color: #c8e4ff !important;
+            color: #334155 !important;
             font-weight: 500;
         }
         section[data-testid="stSidebar"] p {
-            color: #c8e4ff !important;
+            color: #334155 !important;
         }
         section[data-testid="stSidebar"] .stRadio label {
-            color: #c8e4ff !important;
+            color: #334155 !important;
         }
         section[data-testid="stSidebar"] [data-testid="stWidgetLabel"] {
-            color: #c8e4ff !important;
+            color: #334155 !important;
         }
         section[data-testid="stSidebar"] span {
-            color: #c8e4ff !important;
+            color: #334155 !important;
         }
         h1, h2, h3 {
             color: #8be9fd;
